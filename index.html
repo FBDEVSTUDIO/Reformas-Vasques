@@ -28,7 +28,7 @@
 
   header {
   background: #d4d7ed9b; /* azul clarinho */
-  padding: 20px;
+  padding: 16px 20px;
   display: flex;
   flex-direction: column; /* coloca um embaixo do outro */
   align-items: center; /* centraliza */
@@ -36,11 +36,10 @@
   text-align: center;
   overflow: hidden 75px;
 }
-
 .logo-wrap img {
-  height: 200px;
-  max-width: 200%;
-  
+  height: 180px;
+  width: auto;
+  max-width: 90vw;
 }
 
     .header-contato {
@@ -393,7 +392,7 @@
     /* RESPONSIVO */
     @media (max-width: 680px) {
       header { padding: 14px 18px; min-height: auto; flex-wrap: wrap; gap: 10px; }
-      .logo-wrap img { height: 55px; }
+      .logo-wrap img { height: 70px; }
       .header-contato .fone { font-size: 17px; }
       .banner h2 { font-size: 28px; }
       .galeria-grid { grid-template-columns: 1fr; }
